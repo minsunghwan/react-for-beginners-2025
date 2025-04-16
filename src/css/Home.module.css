@@ -1,0 +1,11 @@
+.loding {
+  width: 100%;
+  height: 100%;
+}
+
+.moviesGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  padding: 20px;
+}

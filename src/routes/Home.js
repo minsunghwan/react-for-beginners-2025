@@ -1,3 +1,8 @@
+import MovieInfo from "../components/MovieInfo";
+import homeCss from "../css/Home.module.css";
+
+import { useState, useEffect } from "react";
+
 function Home() {
   const [loading, setLoading] = useState(true);
   const [movies, setMovies] = useState([]);
@@ -18,12 +23,13 @@ function Home() {
   return (
     <div>
       {loading ? (
-        <h1>Loading...</h1>
+        <h1 className={homeCss.loading}>Loading...</h1>
       ) : (
-        <div>
+        <div className={homeCss.moviesGrid}>
           {movies.map((movie) => (
             <MovieInfo
               key={movie.id}
+              id={movie.id}
               coverImg={movie.medium_cover_image}
               title={movie.title}
               summary={movie.summary}

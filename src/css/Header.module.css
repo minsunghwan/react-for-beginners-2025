@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.rightGroup {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.select {
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 6px 12px;
+  height: 36px;
+  background-color: #222;
+  color: white;
+  cursor: pointer;
+}
+
+.login {
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 6px 12px;
+  height: 36px;
+  background-color: #e50914;
+  color: white;
+  cursor: pointer;
+}

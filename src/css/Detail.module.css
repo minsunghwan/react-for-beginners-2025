@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap");
+
+.firstSectionWrapper {
+  position: relative;
+  height: 550px;
+  overflow: hidden;
+}
+
+.blurBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(1px);
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+  color: white;
+  top: 60%;
+  left: 20%;
+}
+
+.title {
+  font-size: 50px;
+  margin-bottom: 2rem;
+}
+
+.tagline {
+  font-style: italic;
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: #ccc;
+}
+
+.genreItem {
+  display: inline;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.genreList {
+  position: absolute;
+  left: 50%;
+}
+
+.SecondSectionWrapper {
+  margin-top: 4%;
+  display: flex;
+}
+
+.posterImg {
+  width: 300px;
+  margin-left: 15%;
+}
+
+.Summary {
+  width: 80%;
+  font-family: "Roboto Slab", serif;
+  font-size: 25px;
+  line-height: 1.6;
+  color: #f0f0f0;
+  margin: 22px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.Average {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  margin-top: 5%;
+  position: absolute;
+  left: 80%;
+}
